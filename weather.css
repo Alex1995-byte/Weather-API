@@ -1,0 +1,147 @@
+body {
+	margin: auto;
+	font-family: 'Nunito', sans-serif;
+	font-family: "Inter", sans-serif;
+	background-color: #cededc;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
+}
+a {
+	text-decoration: none;
+}
+section {
+	max-width: 1350px;
+	margin: auto;
+	padding: 24px;
+	background-color: white;
+	margin-bottom: 25px;
+}
+header {
+	max-width: 1440px;
+	display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 24px;
+}
+.left-side {
+	color: #32a899;
+}
+.right-side {
+	display: flex;
+	width: 150px;
+
+}
+input {
+	background-color: #cededc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+}
+.right-side span {
+	font-size: 14px;
+}
+.right-side img {
+	width: 18px;
+	
+}
+.upper-row {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.upper-row span {
+	margin-right: 44px;
+	color: #32a899;
+}
+.first-col img {
+	width: 250px;
+	margin-top: 35px;
+	margin-left: 35px;
+}
+.first-col {
+	display: flex;
+}
+.sec-col {
+	font-size: 50px;
+}
+.third-col {
+	padding-top: 40px;
+	display: flex;
+    flex-direction: column;
+}
+.third-col span {
+	margin-bottom: 40px;
+}
+.forth-col {
+	padding-top: 40px;
+	display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.forth-col span {
+	margin-bottom: 40px;
+}
+.lower-row {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.wrap-hourly img {
+	width: 150px;
+	margin-bottom: 30px;
+}
+.hourly span {
+	color: #32a899;
+	font-weight: bold ;
+}
+.hourly {
+	margin-bottom: 50px;
+}
+.row-hourly {
+	display: flex;
+    justify-content: space-between;
+}
+
+.hourly-first {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.hourly-sec {
+	display: flex;
+	flex-direction: column;
+}
+.hourly-sec span:first-child {
+	font-weight: bold;
+}
+.hourly-first span:first-child {
+	font-weight: bold;
+	margin-bottom: 210px;
+}
+.hourly-first span {
+	margin-bottom: 30px;
+}
+.hourly-sec span {
+	margin-bottom: 30px;
+}
+td,tb {
+	padding: 20px 20px 20px;
+	text-align: center;
+}
+table {
+	width: 100%;
+}
+
+td :first-child {
+	padding-left: 0;
+}
+#day{
+	margin: 20px;
+}
